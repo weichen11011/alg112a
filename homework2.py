@@ -16,7 +16,7 @@ def power2n2(n):
 
 fib = [None]*10000
 fib[0] = 1
-fib[1] = 1
+fib[1] = 2
 def power2n3(n):
     if n <0: return False
     if not fib[n] is None:
